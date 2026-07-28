@@ -13,7 +13,7 @@ def is_palindrome(s):
 
 
 def is_anagram(s1, s2):
-    anagram_dic = dict()
+    anagram_dic = dict()  # noqa: C408
     for i in s1.lower():
         if i in anagram_dic:
             anagram_dic[i] += 1

@@ -78,7 +78,7 @@ class DynamicArray:
             right -= 1
         
     def traverse(self):
-        for i in range(0, self._size):
+        for i in range(self._size):
             print(self._array[i])
         
     def __str__(self):
