@@ -5,4 +5,10 @@
 
 class Solution:
     def sortColors(self, nums):
-        pass
+        right = len(nums)
+        
+        for i in range(right):
+            for j in range(i, right):
+                if nums[i] > nums[j]:
+                    nums[i], nums[j] = nums[j], nums[i]
+                    

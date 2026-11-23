@@ -4,7 +4,7 @@
 
 | Section                     | Topics | Status         |
 | --------------------------- | ------ | -------------- |
-| 1. Arrays & Strings         | 8      | 🟡 Not Started |
+| 1. Arrays & Strings         | 8      | ✅ Done        |
 | 2. Linked Lists             | 5      | ⬜ Not Started |
 | 3. Stacks                   | 4      | ⬜ Not Started |
 | 4. Queues                   | 4      | ⬜ Not Started |
@@ -34,11 +34,11 @@
 
 Implement the core data structures and their operations. No tricks, no patterns — just understand how they work internally.
 
-- [ ] **Dynamic Array** — Build a resizable array from scratch
+- [✓] **Dynamic Array** — Build a resizable array from scratch
   - Operations: `insert(index, value)`, `append(value)`, `delete(index)`, `get(index)`, `set(index, value)`, `size()`, `reverse()`, `traverse()`
-- [ ] **String as Char Array** — Implement basic string operations manually
+- [✓] **String as Char Array** — Implement basic string operations manually
   - Operations: `reverse()`, `isPalindrome()`, `isAnagram(str1, str2)`, `concatenate()`, `substring(start, end)`
-- [ ] **Matrix (2D Array)** — Implement a 2D array with operations
+- [✓] **Matrix (2D Array)** — Implement a 2D array with operations
   - Operations: `insert(row, col, value)`, `get(row, col)`, `transpose()`, `rotate90()`, `spiralOrder()`
 
 ### 🏋️ LeetCode Practice
